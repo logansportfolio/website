@@ -20,3 +20,71 @@ margin: 0;
 font-family: "Raleway", sans-serif;
 background-color: darkslateblue;
 }
+.heading {
+font-size: 24px;
+font-weight: bolder;
+text-align: center;
+}
+ul {
+position: fixed;
+top: 0;
+width: 100%;
+list-style-type: none;
+margin: 0;
+padding: 0;
+overflow: hidden;
+background-color: darkgray;
+}
+li {
+float: left;
+border: 1px solid black;
+border-right: 1px solid black;
+}
+li a {
+display: block;
+color: white;
+font-weight: bolder;
+text-align: center;
+padding: 14px 16px;
+text-decoration: none;
+}
+#active {
+background-color: gold;
+}
+li a:hover:not(#active), li a:hover {
+background-color: goldenrod;
+}
+h2 {
+  text-align:center; 
+  color: white;
+}
+#navbar {
+overflow: hidden;
+background-color: black;
+}
+#navbar a {
+ float: left;
+ display: block;
+ color: white;
+ text-align: center;
+ font-weight: bold;
+ padding: 14px 16px;
+ text-decoration: none;
+ font-size: 16px;
+}
+#navbar a:hover {
+ background-color: goldenrod;
+ color: gold;
+cursor: pointer;
+}
+#navbar a.active {
+background-color: goldenrod;
+color: white;
+}
+.thickline {
+  border: 8px solid lightslategrey;
+  border-radius: 5px;
+}
+.thinline {
+  border: 1px solid lightslategrey;
+}

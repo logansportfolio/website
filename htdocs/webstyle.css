@@ -1,0 +1,22 @@
+/* 
+    Created on : Dec 22, 2022, 8:05 PM
+    Last Edited : Jan 15, 2:37 PM
+    Author     : logan l.
+*/
+@media screen and (max-width: 400px) {
+  li a {
+   float: left;
+   width: 100%;
+  }
+.column {
+  width:100%;
+}
+}
+* {
+box-sizing: border-box;
+height: 100%;
+width: 100%;
+margin: 0;
+font-family: "Raleway", sans-serif;
+background-color: darkslateblue;
+}
